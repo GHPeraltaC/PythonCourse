@@ -13,9 +13,6 @@ print("3 - Dolares estadounidenses a pesos mexicanos")
 
 opcion = int(input("Seleccione una opcion: "))
 
-#if opcion != 1 or opcion !=2 or opcion != 3:
-#    print("Opcion Invalida")
-
 def conversor_monedas():
     if opcion == 1:
         operacion_conversor(ARS, "argentinos")
