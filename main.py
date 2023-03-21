@@ -1,3 +1,5 @@
+from func import *
+
 
 """
 Comentario Varias Lineas
@@ -60,6 +62,7 @@ if a == 1:
 else:
     print("-1")
     #pass - Omitir Else
+
 """
 
 ARS = 202.91

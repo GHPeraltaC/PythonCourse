@@ -1,3 +1,5 @@
+
+#Modularizacion
 ARS = 202.91
 COL = 4849.99
 MEX = 18.74
@@ -10,6 +12,9 @@ print("2 - Dolares estadounidenses a pesos colombianos")
 print("3 - Dolares estadounidenses a pesos mexicanos")
 
 opcion = int(input("Seleccione una opcion: "))
+
+#if opcion != 1 or opcion !=2 or opcion != 3:
+#    print("Opcion Invalida")
 
 def conversor_monedas():
     if opcion == 1:
